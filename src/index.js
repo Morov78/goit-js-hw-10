@@ -22,7 +22,6 @@ function onInputHandler(event) {
 function clearOutputData() {
   listCountryEl.innerHTML = '';
   countryInfoEl.innerHTML = '';
-  countryInfoEl.style.fontSize = '';
   listCountryEl.style.fontSize = '';
 }
 
@@ -49,7 +48,6 @@ function renderFiltersCountry(data) {
   renderCountryData(data);
   if (data.length === 1) {
     renderInfoCountry(data[0]);
-    countryInfoEl.style.fontSize = '24px';
     listCountryEl.style.fontSize = '24px';
   }
 }

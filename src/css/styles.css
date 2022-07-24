@@ -36,3 +36,6 @@ body {
   object-fit: contain;
   width: 60px;
 }
+.country-info {
+  font-size: 24px;
+}
